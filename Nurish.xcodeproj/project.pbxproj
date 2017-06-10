@@ -15,8 +15,8 @@
 		281EDC811EEC71E300CDDB26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281EDC7F1EEC71E300CDDB26 /* LaunchScreen.storyboard */; };
 		281EDC8C1EEC71E300CDDB26 /* NurishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281EDC8B1EEC71E300CDDB26 /* NurishTests.swift */; };
 		281EDC971EEC71E300CDDB26 /* NurishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281EDC961EEC71E300CDDB26 /* NurishUITests.swift */; };
-		281EDCA51EEC726D00CDDB26 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281EDCA41EEC726D00CDDB26 /* Extensions.swift */; };
 		281EDCAA1EEC730900CDDB26 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281EDCA91EEC730900CDDB26 /* SignUpVC.swift */; };
+		281EDCAC1EEC7A2500CDDB26 /* UnderlinedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281EDCAB1EEC7A2500CDDB26 /* UnderlinedTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		281EDC921EEC71E300CDDB26 /* NurishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NurishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		281EDC961EEC71E300CDDB26 /* NurishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurishUITests.swift; sourceTree = "<group>"; };
 		281EDC981EEC71E300CDDB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		281EDCA41EEC726D00CDDB26 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		281EDCA91EEC730900CDDB26 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		281EDCAB1EEC7A2500CDDB26 /* UnderlinedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlinedTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,6 @@
 				281EDC731EEC71E300CDDB26 /* AppDelegate.swift */,
 				281EDC751EEC71E300CDDB26 /* ViewController.swift */,
 				281EDC771EEC71E300CDDB26 /* Main.storyboard */,
-				281EDCA41EEC726D00CDDB26 /* Extensions.swift */,
 				281EDCA61EEC72DC00CDDB26 /* Modal */,
 				281EDCA71EEC72DD00CDDB26 /* View */,
 				281EDCA81EEC72DE00CDDB26 /* Controller */,
@@ -146,6 +145,7 @@
 		281EDCA71EEC72DD00CDDB26 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				281EDCAB1EEC7A2500CDDB26 /* UnderlinedTextField.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -296,10 +296,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				281EDC7C1EEC71E300CDDB26 /* Nurish.xcdatamodeld in Sources */,
+				281EDCAC1EEC7A2500CDDB26 /* UnderlinedTextField.swift in Sources */,
 				281EDC761EEC71E300CDDB26 /* ViewController.swift in Sources */,
 				281EDC741EEC71E300CDDB26 /* AppDelegate.swift in Sources */,
 				281EDCAA1EEC730900CDDB26 /* SignUpVC.swift in Sources */,
-				281EDCA51EEC726D00CDDB26 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,10 +10,10 @@
 import Foundation
 
 class Family {
-    private let Child: Person!
-    private let Parent1: Person!
-    private let Parent2: Person!
-    private let Siblings: [Person]!
-    
-    
+//    private let Child: Person!
+//    private let Parent1: Person!
+//    private let Parent2: Person!
+//    private let Siblings: [Person]!
+//    
+//    
 }

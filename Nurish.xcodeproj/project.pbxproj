@@ -453,6 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DPY5934975;
 				INFOPLIST_FILE = Nurish/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Yosvani.Nurish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -466,6 +467,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DPY5934975;
 				INFOPLIST_FILE = Nurish/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Yosvani.Nurish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -550,6 +552,7 @@
 				281EDC9D1EEC71E300CDDB26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		281EDC9E1EEC71E300CDDB26 /* Build configuration list for PBXNativeTarget "NurishTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +561,7 @@
 				281EDCA01EEC71E300CDDB26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		281EDCA11EEC71E300CDDB26 /* Build configuration list for PBXNativeTarget "NurishUITests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +570,7 @@
 				281EDCA31EEC71E300CDDB26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

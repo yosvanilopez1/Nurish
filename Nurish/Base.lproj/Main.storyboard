@@ -126,37 +126,37 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="1Ug-t4-IT6">
                                         <rect key="frame" x="20" y="120" width="335" height="373"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="PARENT NAME" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ld0-8y-dfJ" customClass="UnderlinedTextField" customModule="Nurish" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ld0-8y-dfJ" customClass="UnderlinedTextField" customModule="Nurish" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="335" height="49"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="EMAIL" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ecT-1z-VIx" customClass="UnderlinedTextField" customModule="Nurish" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ecT-1z-VIx" customClass="UnderlinedTextField" customModule="Nurish" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="54" width="335" height="49"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ADDRESS*" textAlignment="justified" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W7n-Zr-lOx" customClass="UnderlinedTextField" customModule="Nurish" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W7n-Zr-lOx" customClass="UnderlinedTextField" customModule="Nurish" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="108" width="335" height="49"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="PHONE*" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sJB-zn-b0Y" customClass="UnderlinedTextField" customModule="Nurish" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sJB-zn-b0Y" customClass="UnderlinedTextField" customModule="Nurish" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="162" width="335" height="49"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="PASSWORD" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZxV-qT-uV4" customClass="UnderlinedTextField" customModule="Nurish" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZxV-qT-uV4" customClass="UnderlinedTextField" customModule="Nurish" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="216" width="335" height="49"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="CODE" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MKA-lL-czt" customClass="UnderlinedTextField" customModule="Nurish" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MKA-lL-czt" customClass="UnderlinedTextField" customModule="Nurish" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="270" width="335" height="49"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -228,11 +228,11 @@
                     <navigationItem key="navigationItem" title="Sign Up" id="E3u-BG-4JG"/>
                     <connections>
                         <outlet property="addressInputField" destination="W7n-Zr-lOx" id="KTX-zb-VIP"/>
-                        <outlet property="codeInputField" destination="MKA-lL-czt" id="ao2-lU-RUK"/>
+                        <outlet property="codeInputField" destination="Tju-6e-FDo" id="3Rs-Un-8fq"/>
                         <outlet property="emailInputField" destination="ecT-1z-VIx" id="G7V-qI-e1y"/>
                         <outlet property="nameInputField" destination="Ld0-8y-dfJ" id="Ghn-f9-Q8Y"/>
-                        <outlet property="passwordInputField" destination="ZxV-qT-uV4" id="0ZZ-fp-Hvh"/>
-                        <outlet property="phoneInputField" destination="sJB-zn-b0Y" id="Alz-7U-wr5"/>
+                        <outlet property="passwordInputField" destination="MKA-lL-czt" id="Lgv-O5-Ren"/>
+                        <outlet property="phoneInputField" destination="sJB-zn-b0Y" id="1ru-AS-tQE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dHW-Ti-oj8" userLabel="First Responder" sceneMemberID="firstResponder"/>

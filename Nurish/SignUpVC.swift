@@ -9,12 +9,13 @@
 import UIKit
 
 class SignUpVC: UIViewController {
-    @IBOutlet weak var nameInputField: UnderlinedTextField!
-    @IBOutlet weak var emailInputField: UnderlinedTextField!
-    @IBOutlet weak var addressInputField: UnderlinedTextField!
-    @IBOutlet weak var phoneInputField: UnderlinedTextField!
-    @IBOutlet weak var passwordInputField: UnderlinedTextField!
-    @IBOutlet weak var codeInputField: UnderlinedTextField!
+    @IBOutlet weak var nameInputField: UITextField!
+    @IBOutlet weak var emailInputField: UITextField!
+    @IBOutlet weak var addressInputField: UITextField!
+    @IBOutlet weak var phoneInputField: UITextField!
+    @IBOutlet weak var passwordInputField: UITextField!
+    @IBOutlet weak var codeInputField: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

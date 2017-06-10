@@ -1,0 +1,6 @@
+framework module Pods_Nurish {
+  umbrella header "Pods-Nurish-umbrella.h"
+
+  export *
+  module * { export * }
+}
